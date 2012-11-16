@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<title>Task 6 - Line graphs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/graph.js"></script>
+</head>
+<body>
+
+	<!-- <canvas class="graph"></canvas> -->
+
+	<div class="menu">
+		<p class="status">Оценен</p>
+		<ul>
+			<li>
+				<a class="selected">
+					<span>Профессиональный рост</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Соцпакет</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Команда</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Планы на полгода</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Уровень зарплаты</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Компания как бренд</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Идеальный работодатель</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span>Рабочее место</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="container">
+		<!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+		  <circle cx="100" cy="50" r="40" stroke="black"
+		  stroke-width="2" fill="red" />
+		</svg> -->
+	</div>
+	<script>
+	window.onload = function(){
+		menu = Menu()
+		chart = new Chart("#container", config)
+	}
+	</script>
+</body>
+</html>
